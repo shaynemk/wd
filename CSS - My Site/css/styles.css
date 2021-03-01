@@ -1,0 +1,174 @@
+/************** Tag Selectors **************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+  /* font-size: 1rem; */
+}
+
+/* 100% font size is 16px,
+   to get 90px: 90px/16 = 562.5%.
+   1em = 16px.
+   rem = root em, will not inherit other dynamic sizing. */
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  height: 0;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+/* div:hover {
+  background-color: yellow;
+} */
+
+/************** Class Selectors **************/
+/* Classes can be used to group tags */
+.top-container {
+  /* background-color: #a3d2ca; */
+  background-color: #eaf6f6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.footer-link {
+  padding-top: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+.pro {
+  text-decoration: underline;
+  list-style: 2;
+}
+
+.programmer-line {
+  font-weight: normal;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  /* position: relative; */
+  width: 50%;
+  margin: 100px 25%;
+  text-align: left;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 15px;
+
+}
+
+.chillies-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px; /* top left/right bottom */
+}
+
+.BUTTON_ZAW {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_ZAW:hover {
+   border: solid #2BC4AD 0;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+/* .code-skill-description {
+  clear: left;
+}
+
+.chillies-skill-description {
+  clear: right;
+} */
+
+/************** ID Selectors **************/
+/* IDs are page unique */
