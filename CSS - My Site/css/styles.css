@@ -40,6 +40,7 @@ hr {
 
 a {
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -65,11 +66,11 @@ p {
 
 .bottom-container {
   background-color: #66bfbf;
-  padding: 50px 0 20px;
+  padding: 15px 0 15px;
 }
 
 .footer-link {
-  padding-top: 20px;
+  padding-top: 0px;
   height: 40px;
   width: 40px;
 }
