@@ -1,0 +1,16 @@
+/* Tag */
+h1 {
+  font-family: 'Montserrat-Black, san-serif';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+
+/* Class */
+
+
+/* ID */
+#title {
+  background-color: #ff4c68;
+}
