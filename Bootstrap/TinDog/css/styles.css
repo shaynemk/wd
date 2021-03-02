@@ -9,24 +9,14 @@ h1 {
   font-weight: 900;
 }
 
-/* Title Section */
-.container-fluid {
-  padding: 3% 15%;
+h3 {
+  font-family: "Montserrat-Bold";
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
-/* Title Image */
-.title-image {
-  width: 60%;
-  -webkit-transform: rotate(25deg);
-  -moz-transform: rotate(25deg);
-  -o-transform: rotate(25deg);
-  -ms-transform: rotate(25deg);
-  transform: rotate(25deg);
-}
-
-#title {
-  background-color: #ff4c68;
-  color: #fff;
+p {
+  color: #8f8f8f;
 }
 
 /* Navbar */
@@ -49,7 +39,45 @@ h1 {
   font-size: 1.2rem;
 }
 
-/* Download Buttons */
+/* Title Section */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.title-image {
+  width: 60%;
+  /* -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  -ms-transform: rotate(25deg); */
+  transform: rotate(25deg);
+}
+
 .download-button {
   margin: 5% 3% 5% 0;
+}
+
+/* Features Section */
+#features {
+  margin: auto;
+  padding: 7% 0;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
 }
