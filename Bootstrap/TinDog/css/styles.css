@@ -68,6 +68,17 @@ p {
   right: 30%;
 }
 
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
 .download-button {
   margin: 5% 3% 5% 0;
 }
