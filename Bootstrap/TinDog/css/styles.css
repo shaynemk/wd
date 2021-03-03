@@ -46,6 +46,7 @@ p {
   font-size: 1.2rem;
 }
 
+
 /* Title Section */
 #title {
   background-color: #ff4c68;
@@ -53,7 +54,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .title-image {
@@ -63,16 +64,22 @@ p {
   -o-transform: rotate(25deg);
   -ms-transform: rotate(25deg); */
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
+
 /* Features Section */
 #features {
+  background-color: #fff;
   margin: auto;
   padding: 7% 15%;
+  position: relative;
+  /* z-index: 1; */
 }
 
 .feature-box {
@@ -88,6 +95,7 @@ p {
 .feature-icon:hover {
   color: #ff4c68;
 }
+
 
 /* Testimonial Section */
 #testimonials {
@@ -106,6 +114,7 @@ p {
   padding: 7% 15%;
 }
 
+
 /* Press Section */
 #press {
   background-color: #ef8172;
@@ -117,6 +126,7 @@ p {
   margin: 20px 20px 50px;
   width: 10%;
 }
+
 
 /* Pricing Section */
 #pricing {
