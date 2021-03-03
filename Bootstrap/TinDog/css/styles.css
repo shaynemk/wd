@@ -148,3 +148,35 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+
+/* CTA Section */
+#cta {
+  background-color: #ff4c68;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.cta-text {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+
+/* Footer Section */
+#footer {
+  background-color: #fff;
+  padding: 20px 0 0;
+  text-align: center;
+}
+
+.footer-socials {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.socials {
+  padding-left: 5px;
+  padding-right: 5px;
+}
